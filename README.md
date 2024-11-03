@@ -18,6 +18,7 @@ Implementation of Federated Learning algorithms, FedAvg and FedDF, on CIFAR10 da
 ## Implementation Details
 
 - Framework: TensorFlow 2.x
+- Model choice: ResNet8
 - Dataset: CIFAR10 (60,000 32x32 color images)
 - Non-IID simulation: Dirichlet distribution with varying concentration parameters
 - FedAvg algorithm: federated averaging with infrequent communication
