@@ -24,9 +24,9 @@ import gc
 
 N=20
 
-l_round=1 # Number of local rounds each client runs
-g_round=1 # Number of distillation rounds at the server for FedDF
-comm_round=2 # Number of total communication rounds
+l_round=20 # Number of local rounds each client runs
+g_round=20 # Number of distillation rounds at the server for FedDF
+comm_round=50 # Number of total communication rounds
 
 alpha=0.1 # dirichilet parameter controlling data heterogeneity
 print(alpha)
