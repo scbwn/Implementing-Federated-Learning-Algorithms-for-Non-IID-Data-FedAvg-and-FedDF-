@@ -7,7 +7,7 @@ Implementation of Federated Learning algorithms, FedAvg and FedDF, on CIFAR10 da
 
 ## Key Features
 
-- Implementation of two Federated Learning algorithms:
+- Implementation of two popular Federated Learning algorithms:
     - FedAvg (McMahan et al., 2017)
     - FedDF (Lin et al., NeurIPS 2020)
 - Non-IID data simulation using Dirichlet distribution
