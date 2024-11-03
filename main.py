@@ -114,7 +114,7 @@ def create_model(d, num_of_classes):
     return nn
 
 # Choice of Federated Learning Algorithm: fedavg / feddf
-alg = 'feddf'
+alg = 'fedavg'
 print(alg)
 
 with tf.device("CPU"):
